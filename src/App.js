@@ -6,7 +6,7 @@ import Score from './components/Score';
 
 export const DataContext = createContext();
     function App() {
-       const [appState, setAppState] = useState('Score');
+       const [appState, setAppState] = useState('menu');
        const [appScore, setAppScore] = useState(0);
         return (
             <DataContext.Provider value = {{appState,setAppState,appScore,setAppScore}}>
